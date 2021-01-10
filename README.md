@@ -1,2 +1,2 @@
-# leetcode_practice
-solving problems from leetcode.com
+# 해결한 문제 목록
+- 
