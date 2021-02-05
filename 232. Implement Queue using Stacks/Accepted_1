@@ -1,0 +1,56 @@
+class MyQueue:
+    # Stack : LIFO
+    # Queue : FIFO
+    # 스택으로 FIFO 구조를 만들어라.
+
+    def __init__(self):
+        """
+        Initialize your data structure here.
+        """
+        self.s1 = list()  # LIFO
+        self.s2 = list()  # s1을 뒤집은 형태
+        self.out = None
+        
+
+    def push(self, x: int) -> None:
+        """
+        Push element x to the back of queue.
+        """
+        self.s1.append(x)
+        self.s2 = list(reversed(self.s1))
+        
+
+    def pop(self) -> int:
+        """
+        Removes the element from in front of queue and returns that element.
+        """
+        self.out = self.peek()
+        self.s2.remove(self.peek())
+        self.s1.remove(self.s1[0])
+        return self.out
+        
+
+    def peek(self) -> int:
+        """
+        Get the front element.
+        """
+        if self.s2:
+            return self.s2[-1]
+        else:
+            return None
+        
+
+    def empty(self) -> bool:
+        """
+        Returns whether the queue is empty.
+        """
+        return self.peek() == None
+        
+
+
+# Your MyQueue object will be instantiated and called as such:
+# obj = MyQueue()
+# obj.push(x)
+# param_2 = obj.pop()
+# param_3 = obj.peek()
+# param_4 = obj.empty()
