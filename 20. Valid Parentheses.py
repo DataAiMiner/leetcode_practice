@@ -8,6 +8,4 @@ class Solution:
             elif char in dictionary.keys():
                 if len(stack) == 0 or dictionary[char] != stack.pop():
                     return False
-            else:
-                return False
         return len(stack) == 0
