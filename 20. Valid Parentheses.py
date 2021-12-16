@@ -10,4 +10,4 @@ class Solution:
                     return False
             else:
                 return False
-        return True
+        return len(stack) == 0
