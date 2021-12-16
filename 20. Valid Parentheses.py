@@ -1,10 +1,13 @@
-from collections import deque
-
 class Solution:
     def isValid(self, s: str) -> bool:
+        dictionary = { ')':'(', '}':'{', ']':'['}
         stack = []
-        s_list = list(s)
-        stack = deque(s)
-        while len(stack) > 0:
-            print(stack.pop())
-            print(stack.popleft())
+        for char in s:
+            if char in dictionary.values():
+                stack.append(char)
+            elif char in dictionary.keys():
+                if len(stack) == 0 or dictionary[char] != stack.pop():
+                    return False
+            else:
+                return False
+        return True
