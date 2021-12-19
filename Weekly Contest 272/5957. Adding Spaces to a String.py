@@ -22,4 +22,12 @@ class Solution:
         
         parts = [s[i:j] for i,j in zip([0]+spaces, spaces[0:]+[None])]
         return ' '.join(parts)
+    
+#         ans = []
+#         for i in reversed(range(len(s))): 
+#             ans.append(s[i])
+#             if spaces and spaces[-1] == i: 
+#                 ans.append(' ')
+#                 spaces.pop()
+#         return "".join(reversed(ans))
                 
