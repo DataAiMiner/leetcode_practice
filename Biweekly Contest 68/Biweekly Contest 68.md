@@ -7,3 +7,5 @@
 ## [2116. Check if a Parentheses String Can Be Valid](https://leetcode.com/contest/biweekly-contest-68/problems/find-all-possible-recipes-from-given-supplies)
 
 ## [2116. Abbreviating the Product of a Range](https://leetcode.com/contest/biweekly-contest-68/problems/abbreviating-the-product-of-a-range)
+- [Pure Math](https://leetcode.com/problems/abbreviating-the-product-of-a-range/discuss/1646721/python-Feel-so-sorry-about-the-man-who-was-asked-this-problem-in-the-interview.)
+- [Quasi Brute-Force](https://leetcode.com/problems/abbreviating-the-product-of-a-range/discuss/1646615/Python3-quasi-brute-force)
