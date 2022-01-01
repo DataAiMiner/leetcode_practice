@@ -10,3 +10,5 @@
 - [prefix sum](https://leetcode.com/problems/intervals-between-identical-elements/discuss/1647480/Python3-prefix-sum)
 
 ## [Recover the Original Array](https://leetcode.com/contest/weekly-contest-273/problems/recover-the-original-array)
+- [Simple O(N^2) Solution](https://leetcode.com/problems/recover-the-original-array/discuss/1648815/Python-Simple-O(N2)-Solution-oror-Detailed-Explanation-oror-Beginner-Friendly)
+- [Short Greedy solution](https://leetcode.com/problems/recover-the-original-array/discuss/1647452/Python-Short-solution-explained)
