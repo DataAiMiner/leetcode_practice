@@ -7,5 +7,7 @@ class Solution:
 ```
 
 ## [2125. Number of Laser Beams in a Bank](https://leetcode.com/contest/weekly-contest-274/problems/number-of-laser-beams-in-a-bank)
+- [[Python3, Java, C++] Simple O(mn)](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/discuss/1660943/Python3-Java-C%2B%2B-Simple-O(mn))
+
 ## [2126. Destroying Asteroids](https://leetcode.com/contest/weekly-contest-274/problems/destroying-asteroids)
 ## [2127. Maximum Employees to Be Invited to a Meeting](https://leetcode.com/contest/weekly-contest-274/problems/maximum-employees-to-be-invited-to-a-meeting)
