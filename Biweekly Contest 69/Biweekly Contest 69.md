@@ -35,4 +35,7 @@ class Solution:
 ## [2131.Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/contest/biweekly-contest-69/problems/longest-palindrome-by-concatenating-two-letter-words)
 - [[Python] Simple O(N) Solution || Straightforward](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/discuss/1675386/Python-Simple-O(N)-Solution-oror-Straightforward)
 - [Counting Mirror Words O(n)](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/discuss/1675343/Python3-Java-C%2B%2B-Counting-Mirror-Words-O(n))
+- 
 ## [2132.Stamping the Grid](https://leetcode.com/contest/biweekly-contest-69/problems/stamping-the-grid)
+- [2d cumulative sums, explained](https://leetcode.com/problems/stamping-the-grid/discuss/1675344/Python-2d-cumulative-sums-explained)
+- [2D Range Sum Query | explained with images](https://leetcode.com/problems/stamping-the-grid/discuss/1675355/Python-or-2D-Range-Sum-Query-or-explained-with-images)
