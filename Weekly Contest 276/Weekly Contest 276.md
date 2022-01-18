@@ -28,5 +28,28 @@ def minMoves(self, target, k):
 ```
 
 ## [2140. Solving Questions With Brainpower](https://leetcode.com/contest/weekly-contest-276/problems/solving-questions-with-brainpower)
+- [Dynamic Programming](https://leetcode.com/problems/solving-questions-with-brainpower/discuss/1692963/DP)
+```python3
+class Solution:
+    def mostPoints(self, q: List[List[int]]) -> int:
+        @cache
+        def dfs(i: int) -> int:
+            return 0 if i >= len(q) else max(dfs(i + 1), q[i][0] + dfs(i + 1 + q[i][1]))
+        return dfs(0)
+```
+```python3
+class Solution:
+    def mostPoints(self, questions: List[List[int]]) -> int:
+        dp = defaultdict(int)
+        max_score = 0
+        i = len(questions) - 1
+        while i >= 0:
+            point, brainpower = questions[i]
+            dp[i] = max(max_score, point + dp[i+brainpower+1])
+            max_score = max(max_score, dp[i])
+            i -= 1
+        return max_score
+```
+
 
 ## [2141. Maximum Running Time of N Computers](https://leetcode.com/contest/weekly-contest-276/problems/maximum-running-time-of-n-computers)
