@@ -53,3 +53,28 @@ class Solution:
 
 
 ## [2141. Maximum Running Time of N Computers](https://leetcode.com/contest/weekly-contest-276/problems/maximum-running-time-of-n-computers)
+- [Greedy](https://leetcode.com/problems/maximum-running-time-of-n-computers/discuss/1692965/Python3-greedy)
+```python3
+class Solution:
+    def maxRunTime(self, n: int, batteries: List[int]) -> int:
+        batteries.sort()
+        extra = sum(batteries[:-n])
+        batteries = batteries[-n:]
+        
+        ans = prefix = 0 
+        for i, x in enumerate(batteries): 
+            prefix += x 
+            if i+1 < len(batteries) and batteries[i+1]*(i+1) - prefix > extra: return (prefix + extra) // (i+1)
+        return (prefix + extra) // n
+```
+- [Sort Solution with Explanation, O(mlogm)](https://leetcode.com/problems/maximum-running-time-of-n-computers/discuss/1692939/JavaC%2B%2BPython-Sort-Solution-with-Explanation-O(mlogm))
+```python3
+class Solution:
+    def maxRunTime(self, n, A):
+        A.sort()
+        su = sum(A)
+        while A[-1] > su / n:
+            n -= 1
+            su -= A.pop()
+        return su / n
+```
