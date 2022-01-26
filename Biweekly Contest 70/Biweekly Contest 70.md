@@ -7,5 +7,7 @@
 - [Right - Left](https://leetcode.com/problems/count-the-hidden-sequences/discuss/1714246/Right-Left)
 
 ## [#2146. K Highest Ranked Items Within a Price Range](https://leetcode.com/contest/biweekly-contest-70/problems/k-highest-ranked-items-within-a-price-range)
+- [classical bfs solution](https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/discuss/1709671/Python-classical-bfs-solution-explained)
+- [BFS with picture](https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/discuss/1709722/Python-Explanation-with-pictures-BFS)
 
 ## [#2147. Number of Ways to Divide a Long Corridor](https://leetcode.com/contest/biweekly-contest-70/problems/number-of-ways-to-divide-a-long-corridor)
