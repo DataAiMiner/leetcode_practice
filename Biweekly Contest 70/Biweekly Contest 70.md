@@ -11,3 +11,5 @@
 - [BFS with picture](https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range/discuss/1709722/Python-Explanation-with-pictures-BFS)
 
 ## [#2147. Number of Ways to Divide a Long Corridor](https://leetcode.com/contest/biweekly-contest-70/problems/number-of-ways-to-divide-a-long-corridor)
+- [Combinations O(n)](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/discuss/1709655/Python3-Java-C%2B%2B-Combinations-O(n))
+- [DP](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/discuss/1709725/JavaC%2B%2BPython-Two-Solutions-with-Explanation)
