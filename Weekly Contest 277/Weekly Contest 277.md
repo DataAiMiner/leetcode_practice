@@ -1,4 +1,11 @@
 ## [2148. Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/contest/weekly-contest-277/problems/count-elements-with-strictly-smaller-and-greater-elements)
+- [Easy O(N) Solution | O(1) Space](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/discuss/1711489/Python-Easy-O(N)-Solution)
+```python3
+class Solution:
+    def countElements(self, nums: List[int]) -> int:
+        lo, hi = min(nums), max(nums)
+        return sum(1 for x in nums if lo<x<hi)
+```
 
 ## [2149. Rearrange Array Elements by Sign](https://leetcode.com/contest/weekly-contest-277/problems/rearrange-array-elements-by-sign)
 
