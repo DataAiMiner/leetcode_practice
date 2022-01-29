@@ -8,6 +8,11 @@ class Solution:
 ```
 
 ## [2149. Rearrange Array Elements by Sign](https://leetcode.com/contest/weekly-contest-277/problems/rearrange-array-elements-by-sign)
+```python3
+class Solution:
+    def rearrangeArray(self, nums: List[int]) -> List[int]:
+        return [i for t in zip([p for p in nums if p > 0], [n for n in nums if n < 0]) for i in t]
+```
 
 ## [2150. Find All Lonely Numbers in the Array](https://leetcode.com/contest/weekly-contest-277/problems/find-all-lonely-numbers-in-the-array)
 
