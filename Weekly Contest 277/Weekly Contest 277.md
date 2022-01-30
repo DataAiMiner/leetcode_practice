@@ -15,5 +15,12 @@ class Solution:
 ```
 
 ## [2150. Find All Lonely Numbers in the Array](https://leetcode.com/contest/weekly-contest-277/problems/find-all-lonely-numbers-in-the-array)
+- [Simplified Counter](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/discuss/1711316/Counter)
+```python3
+class Solution:
+    def findLonely(self, nums: List[int]) -> List[int]:
+        m = Counter(nums)
+        return [n for n in nums if m[n] == 1 and m[n - 1] + m[n + 1] == 0]
+```
 
 ## [2151. Maximum Good People Based on Statements](https://leetcode.com/contest/weekly-contest-277/problems/maximum-good-people-based-on-statements)
